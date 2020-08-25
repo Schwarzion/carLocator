@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Car Locator</string>
+    <string-array name="permissions">
+        <item>android.permission.ACCESS_COARSE_LOCATION</item>
+        <item>android.permission.ACCESS_FINE_LOCATION</item>
+    </string-array>
 </resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="265dp"
+        android:text="Title"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-163dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="29dp"
+        android:text="time"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/locText"
+        android:layout_width="285dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/titleText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="83dp"
+        android:text="loc"
+        android:textAlignment="center"
+        android:textSize="22sp" />
+
+</RelativeLayout>
