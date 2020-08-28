@@ -3,10 +3,10 @@ package com.schwarzion.carLocator;
 public class LocationPin {
     private String time;
     private String titre;
-    private float lat;
-    private float lon;
+    private double lat;
+    private double lon;
 
-    public LocationPin(String time, String titre, float lat, float lon) {
+    public LocationPin(String time, String titre, double lat, double lon) {
         this.time = time;
         this.titre = titre;
         this.lat = lat;
@@ -29,7 +29,7 @@ public class LocationPin {
         this.titre = titre;
     }
 
-    public float getLat() {
+    public double getLat() {
         return lat;
     }
 
@@ -37,7 +37,7 @@ public class LocationPin {
         this.lat = lat;
     }
 
-    public float getLon() {
+    public double getLon() {
         return lon;
     }
 
